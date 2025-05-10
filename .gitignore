@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.env
+git rm --cached .env
+git add .gitignore
+git commit -m 
+git push
